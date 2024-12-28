@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.whileloop.jandhandarshak.app-mergeDebugResources-37:/values-v27/values-v27.xml",
+            "map": [
+                {
+                    "source": "D:\\Projects\\JDN Gradle Test ( maxakash)\\Jan-Dhan-Darshak-master (1)\\Jan-Dhan-Darshak-master\\app\\src\\main\\res\\values-v27\\styles.xml",
+                    "from": {
+                        "startLines": "3,20,24,28,33,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "56,991,1145,1306,1512,824",
+                        "endLines": "14,22,26,30,36,18",
+                        "endColumns": "12,12,12,12,12,12",
+                        "endOffsets": "818,1139,1300,1505,1692,985"
+                    },
+                    "to": {
+                        "startLines": "2,14,17,20,23,27",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,787,940,1100,1304,1489",
+                        "endLines": "13,16,19,22,26,29",
+                        "endColumns": "12,12,12,12,12,12",
+                        "endOffsets": "782,935,1095,1299,1484,1650"
+                    }
+                }
+            ]
+        }
+    ]
+}

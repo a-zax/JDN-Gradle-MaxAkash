@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.whileloop.jandhandarshak.app-mergeDebugResources-38:/layout/activity_place_details.xml",
+        "source": "com.whileloop.jandhandarshak.app-main-41:/layout/activity_place_details.xml"
+    },
+    {
+        "merged": "com.whileloop.jandhandarshak.app-mergeDebugResources-38:/layout/activity_main.xml",
+        "source": "com.whileloop.jandhandarshak.app-main-41:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.whileloop.jandhandarshak.app-mergeDebugResources-38:/layout/user_feedback.xml",
+        "source": "com.whileloop.jandhandarshak.app-main-41:/layout/user_feedback.xml"
+    },
+    {
+        "merged": "com.whileloop.jandhandarshak.app-mergeDebugResources-38:/layout/result_list_item.xml",
+        "source": "com.whileloop.jandhandarshak.app-main-41:/layout/result_list_item.xml"
+    },
+    {
+        "merged": "com.whileloop.jandhandarshak.app-mergeDebugResources-38:/layout/missing_bank_details.xml",
+        "source": "com.whileloop.jandhandarshak.app-main-41:/layout/missing_bank_details.xml"
+    }
+]

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="checked">#03DAC5</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorPrimarytrans">#03070B16</color>
+    <color name="drawerTextColor">#191919</color>
+    <color name="material_drawer_accent">#FF4081</color>
+    <color name="material_drawer_background">#F2F2F2</color>
+    <color name="material_drawer_divider">#909090</color>
+    <color name="material_drawer_header_selection_subtext">#8A000000</color>
+    <color name="material_drawer_header_selection_text">#ffffff</color>
+    <color name="material_drawer_hint_text">#42000000</color>
+    <color name="material_drawer_primary">#2196F3</color>
+    <color name="material_drawer_primary_dark">#1976D2</color>
+    <color name="material_drawer_primary_icon">#8A000000</color>
+    <color name="material_drawer_primary_light">#BBDEFB</color>
+    <color name="material_drawer_primary_text">#2196F3</color>
+    <color name="material_drawer_secondary_text">#FFFFFF</color>
+    <color name="material_drawer_selected">#1F2196F3</color>
+    <color name="material_drawer_selected_legacy">#E8E8E8</color>
+    <color name="material_drawer_selected_text">#2196F3</color>
+    <color name="unchecked">#A9A9A9</color>
+    <color name="white">#ffffff</color>
+    <dimen name="material_drawer_item_primary_text">16sp</dimen>
+    <dimen name="material_drawer_width">310dp</dimen>
+    <string name="about">The Jan Dhan Darshak Mobile application provides an interface for citizen to view the banking infrastructure in India consisting of Bank Branches, ATMs, Bank Mitra locations. The data is collated by Department of Financial services from schedule commercial Banks both public and private sector.</string>
+    <string name="aboutUs">About Us</string>
+    <string name="accept">Ok</string>
+    <string name="app_name">Jan Dhan Darshak</string>
+    <string name="atm">ATM</string>
+    <string name="bankMitra">Bank Mitra</string>
+    <string name="branch">Branch</string>
+    <string name="closedNow">Closed Now</string>
+    <string name="csc">CSC</string>
+    <string name="directions">Directions</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="disclaimerinfo">The information contained in the mobile application is provided and maintained by various scheduled commercial banks. No guarantee is given as to the accuracy or currency of any of the data. Therefore, in no event shall Department of Financial Services or its constituents be liable for any special, indirect or consequential damages or any damages whatsoever resulting from loss of use,data, or profits, whether in an action of contact, negligence,or other action, arising out of or in connection with the use of the information herein provided. The website is designed to serve as a secondary representation of Banking infrastructure, and is complied from the scheduled commercial Banks which are the primary sources for this public information. Users of this website are hereby notified that these primary sources should be consulted for verification of the information presented here. And Department of Financial Services or its constituents and the software developer,NIC, assume no legal responsibility for the information on this website.</string>
+    <string name="editTextError">Enter all fields.</string>
+    <string name="favouriteLocations">Favourite Locations</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedbackdone">Thanks for your feedback.</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCsrsWxYBlxDcMqHFXE1Lz-UtY66Zllpt0</string>
+    <string name="help">Help</string>
+    <string name="markedFavoourite">Added to favourite locations</string>
+    <string name="missingBank">Missing Bank Suggestion</string>
+    <string name="missingBankAddress">Bank Address</string>
+    <string name="missingBankSend">Send Details</string>
+    <string name="missingBankname">Bank Name</string>
+    <string name="noFavoourite">No favourite locations</string>
+    <string name="nophoneavailable">Phone number not available</string>
+    <string name="noresults">No results found.</string>
+    <string name="openNow">Open Now</string>
+    <string name="optionNotAvailable">This option is currently unavailable</string>
+    <string name="postOffice">Post Office</string>
+    <string name="searchHere">Search Here</string>
+    <string name="sendFeedback">Send Feedback</string>
+    <string name="style_json">[
+  {
+    "featureType": "poi.business",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "labels.text",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road.arterial",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "labels",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  }
+]</string>
+    <string name="userMobile">Mobile Number</string>
+    <string name="userName">Full Name</string>
+    <string name="userSuggestion">Suggestion</string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="android:windowLightNavigationBar" ns1:targetApi="o_mr1">true</item>
+        <item name="android:fontFamily">@font/monst</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="materialDrawerStyle">@style/Widget.MaterialDrawerStyle</item>
+        <item name="materialDrawerHeaderStyle">@style/Widget.MaterialDrawerHeaderStyle</item>
+    </style>
+    <style name="BottomNavigationView" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="BottomNavigationView.Active" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="MaterialAlertDialog" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+    <style name="PositiveButtonStyle" parent="@style/Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/colorAccent</item>
+
+    </style>
+    <style name="ProgressBarTheme" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="colorAccent">@color/material_drawer_accent</item>
+    </style>
+</resources>
